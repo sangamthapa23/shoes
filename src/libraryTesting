@@ -1,0 +1,158 @@
+//public class library {
+//    void Proff(){
+//        String A[]={"Sam","nam","yam"};
+//        for(int i=0;i<3;i++){
+//            System.out.println(A[i]);
+//        }
+//
+//    }
+//    void books(){
+//        String B[]={"book1","book2","book3"};
+//        for(int i=0;i<3;i++){
+//            System.out.println(B[i]);
+//        }
+//    }
+//    void student(){
+//        String C[]={"student1","student2","student3"};
+//        for(int i=0;i<3;i++)
+//        System.out.println(C[i]);
+//    }
+//    void getData(int reqId){
+//        if(reqId==1){
+//            Proff();
+//        }else if(reqId==2){
+//            books();
+//        }else if(reqId==3){
+//            student();
+//        }else {
+//            System.out.println("Provide valid input");
+//        }
+//
+//    }
+
+//    public static void main(String[] args) {
+//        library Lib= new library();
+//        Lib.getData(10);
+//    }
+//}
+//public class library {
+//    void Class(){
+//        String A[]={"Class1","Class2","Class3"};
+//        for(int i=0;i<3;i++){
+//            System.out.println(A[i]);
+//        }
+//
+//    }
+//    void student(){
+//        String B[]={"Student1","Student2","Student3"};
+//        for(int i=0;i<3;i++){
+//            System.out.println(B[i]);
+//        }
+//    }
+//    void getdata(int reqId){
+//        if(reqId==1){
+//            Class();
+//        } else if (reqId==2) {
+//            student();
+//        }else {
+//            System.out.println("Enter valid no");
+//        }
+//    }
+//
+//    public static void main(String[] args) {
+//        library Lib=new library();
+//        Lib.getdata(2);
+//    }
+//}
+//public class library {
+//    void proff(String reqId){
+//        String A[];
+//        switch(reqId) {
+//            case "math":
+//                A = new String[]{"math1", "math2", "math3"};
+//                break;
+//            case "hindi":
+//                A = new String[]{"hindi1", "hindi2", "hindi3"};
+//                break;
+//            default:
+//                A= new String[]{"a"};         //default value if case doent goes in A.
+//        }
+//
+//                for(int i=0;i<3;i++){
+//                    System.out.println(A[i]);
+//                }
+//        }
+//
+//    public static void main(String[] args) {
+//        library Lib=new library();
+//        Lib.proff("math");
+//    }
+//    }
+//public class library {
+//    void Student(String reqId){
+//        String A[];
+//        switch (reqId){
+//            case "books":
+//                A= new String[]{"book1","book2","book3"};
+//                break;
+//            case "student":
+//                A= new String[]{"student1","student2","student3"};
+//                break;
+//
+//            default:
+//                A=new String[]{"a"};
+//        }
+//        for(int i=0;i<3;i++){
+//            System.out.println(A[i]);
+//        }
+//    }
+//
+//    public static void main(String[] args) {
+//        library Lib= new library();
+//        Lib.Student("books");
+//    }
+//}
+//public class library {
+//    void student() {
+//        String A[] = {"sangam", "perman", "Ironman"};
+//        for (int i = 0; i < A.length; i++) {
+//            System.out.println(A[i]);
+//        }
+//    }
+//
+//    void books() {
+//        String B[] = {"maths", "bio", "science"};
+//        for (int i = 0; i < B.length; i++) {
+//            System.out.println(B[i]);
+//        }
+//
+//    }
+//
+//    void Class() {
+//        String C[] = {"class1", "class2", "class3"};
+//        for (int i = 0; i < C.length; i++) {
+//            System.out.println(C[i]);
+//
+//        }
+//    }
+//
+//    void getData(String reqId) {
+//        if (reqId == "student") {
+//            student();
+//        } else if (reqId == "books") {
+//            books();
+//        } else if (reqId == "Class") {
+//            Class();
+//        } else {
+//            System.out.println("No valid data");
+//        }
+//    }
+//
+//
+//    public static void main(String[] args) {
+//        library Lib=new library();
+//        Lib.getData("student");
+//    }
+//    }
+
+
